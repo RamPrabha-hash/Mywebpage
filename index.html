@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Webpage</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Easymart</h2>
+      <p>
+        Easy Mart is a user-friendly shopping app designed to make your shopping
+        experience seamless and hassle-free. It offers a wide range of products
+        across categories like groceries, fashion, electronics, home essentials,
+        and more, all at competitive prices. With features like intuitive
+        navigation, secure payment options, and quick delivery services, Easy
+        Mart ensures that users can shop anytime, anywhere. The app also
+        provides personalized recommendations, exclusive discounts, and a smart
+        search function to help users find exactly what they need with minimal
+        effort. Easy Mart is your one-stop solution for convenient and
+        efficient shopping.
+      </p>
+    </section>
+
+    <section>
+      <h2>Image</h2>
+      <img
+        src="./image.jpg"
+        alt="Sample Image"
+        style="max-width: 50%; height: auto"
+      />
+    </section>
+
+    <section>
+      <h2>Table</h2>
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Apples</td>
+          <td>10</td>
+          <td>$5.00</td>
+        </tr>
+        <tr>
+          <td>Bananas</td>
+          <td>8</td>
+          <td>$4.00</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Audio</h2>
+      <audio controls>
+        <source src="./audio.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <section>
+      <h2>Video</h2>
+      <video controls width="400">
+        <source src="./video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>Lists</h2>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Form</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" /> Male
+        <input type="radio" id="female" name="gender" value="female" /> Female
+
+        <label for="interests">Interests:</label>
+        <input type="checkbox" id="coding" name="interests" value="coding" />
+        Coding
+        <input type="checkbox" id="sports" name="interests" value="sports" />
+        Sports
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>
